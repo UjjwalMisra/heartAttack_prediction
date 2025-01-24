@@ -1,0 +1,24 @@
+Heart-Attack-Prediction/
+├── data/                  # Contains datasets (raw or preprocessed)
+│   ├── raw/               # Raw datasets
+│   ├── processed/         # Preprocessed datasets
+├── notebooks/             # Jupyter notebooks for EDA, training, etc.
+│   ├── 01_EDA.ipynb       # Exploratory Data Analysis notebook
+│   ├── 02_Modeling.ipynb  # Model training and evaluation notebook
+├── src/                   # Source code for the project
+│   ├── data_processing.py # Scripts for data cleaning and preprocessing
+│   ├── train_model.py     # Script to train the model
+│   ├── evaluate_model.py  # Script for model evaluation
+│   └── utils.py           # Utility functions
+├── models/                # Saved machine learning models
+│   ├── best_model.pkl     # Best trained model
+├── reports/               # Generated reports and visualizations
+│   ├── figures/           # Images and plots
+│   └── summary.pdf        # Final project summary report
+├── tests/                 # Unit tests for the code
+│   ├── test_data_processing.py
+│   ├── test_train_model.py
+├── LICENSE                # License for the project
+├── README.md              # Project overview and documentation
+├── requirements.txt       # List of Python dependencies
+└── Model.ipynb # Main notebook for the project
